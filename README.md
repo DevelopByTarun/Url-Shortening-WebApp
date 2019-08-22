@@ -1,13 +1,17 @@
- # Url-Shortening-WebApp
+ # Description About This Repository
+ 
+[![Build Status](https://travis-ci.org/dotzero/node-url-shortener.svg?branch=master)](https://travis-ci.org/dotzero/node-url-shortener)
+[![GitHub tag](https://img.shields.io/github/tag/dotzero/node-url-shortener.svg)](https://github.com/dotzero/node-url-shortener)
+[![Dependency Status](https://david-dm.org/dotzero/node-url-shortener.svg)](https://david-dm.org/dotzero/node-url-shortener)
+ 
+ ## Url Shortening WebApp
 
- ####  NodeJs-Express-Redis
-
-> A modern, minimalist, and lightweight URL shortener using [Node.js](http://nodejs.org) and [Redis](http://redis.io).
+> A modern, minimalist, and lightweight URL shortener.
 
 ## Using
 
-* [Node](http://nodejs.org)
-* [Express 4](http://expressjs.com/)
+* [NodeJs](http://nodejs.org)
+* [ExpressJs](http://expressjs.com/)
 * [Redis](http://redis.io)
 
 ## Quick Start
@@ -103,7 +107,24 @@ $ npm install
 $ npm test
 ```
 
+## Future Plans
+
+````bash
+Better code splitting
+````
+
+````bash
+Connected another database like Mysql, Mongodb, Oracle
+````
+
+````bash
+Custom hashes
+````
+
+````bash
+User registration and associate shortened URLs
+````
+
 ## License
 
 Released under [the MIT license](LICENSE)
-
